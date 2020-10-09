@@ -194,26 +194,26 @@
 @media print {
   .no-print { display: none !important }
   .print-only { display: block !important }
-  body { font-size: 12px; line-height: 1rem; }
-  .page-header { padding: 1rem 0 .2rem;
+  body { font-size: 13px; line-height: 1.2rem; }
+  .page-header { padding: 1.2rem 0 .2rem;
     .header-name {
       @include sans_bold;
       font-size: 2rem;
-      margin: 0 0 .2rem;
+      margin: .2rem 0;
     }
   }
   .section-header {
     @include section_border_thin;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     h2 { font-size: 1.2rem; line-height: 1.7rem; }
   }
   .content-section {
-    margin: 0 0 1rem;
-    overflow: visible;
+    margin: 0;
     .resume-item { margin-bottom: 1rem; }
     .resume-item-title {
       font-size: 16px;
-      line-height: .7em;
+      line-height: 1.2em;
     }
 
     .resume-item-details {
