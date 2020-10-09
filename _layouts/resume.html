@@ -38,7 +38,7 @@
         </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
-        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contact me</a>
+        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contattami</a>
         {% elsif site.resume_looking_for_work == 'no' %}
         <a class="contact-button not-looking no-print">I'm not looking for work right now.</a>
         {% else %}
@@ -51,7 +51,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Experience</h2>
+          <h2>ESPERIENZE PROFESSIONALI DI SETTORE</h2>
         </header>
 
         {% for job in site.data.experience %}
@@ -71,7 +71,7 @@
       <!-- begin Education -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Education</h2>
+          <h2>PERCORSI FORMATIVI</h2>
         </header>
 
         {% for education in site.data.education %}
@@ -91,7 +91,7 @@
       <!-- begin Projects -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Projects</h2>
+          <h2>PROGETTI</h2>
         </header>
 
         {% for project in site.data.projects %}
@@ -112,7 +112,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Skills</h2>
+          <h2>COMPETENZE INFORMATICHE</h2>
         </header>
         {% for skill in site.data.skills %}
         <div class="resume-item">
@@ -170,7 +170,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Outside Interests</h2>
+          <h2>ALTRI INTERESSI</h2>
         </header>
 
         <div class="resume-item">
@@ -190,7 +190,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Additional Links</h2>
+          <h2>COLLEGAMENTI ESTERNI</h2>
         </header>
 
         <div class="resume-item">
@@ -210,7 +210,7 @@
       <section class="content-section print-only">
 
         <header class="section-header">
-          <h2>Social Links</h2>
+          <h2>SOCIAL NETWORK</h2>
         </header>
 
         <div class="resume-item">
@@ -222,8 +222,7 @@
       {% endif %}
 
       <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
+        <p class="footer-line"><small>Realizzato in <abbr title="Hypertext Markup Language 5">HTML5</abbr> e <abbr title="Cascading Style Sheets 3">CSS3</abbr>.</small></p>
       </footer>
 
     </div>
