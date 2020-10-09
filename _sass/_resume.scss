@@ -195,6 +195,7 @@
   .no-print { display: none !important }
   .print-only { display: block !important }
   body { font-size: 13px; line-height: 1.2rem; }
+  #education { page-break-before: always; }
   .page-header { padding: 1.2rem 0 .2rem;
     .header-name {
       @include sans_bold;
