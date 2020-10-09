@@ -199,13 +199,13 @@
     .header-name {
       @include sans_bold;
       font-size: 2rem;
-      margin: 0 0 .2rem;
+      margin: .7em 0 .2rem;
     }
   }
   .section-header {
     @include section_border_thin;
     margin-bottom: 1rem;
-    h2 { font-size: 1.2rem; line-height: 2rem; }
+    h2 { font-size: 1.2rem; line-height: 1.7rem; }
   }
   .content-section {
     margin: 0 0 1rem;
