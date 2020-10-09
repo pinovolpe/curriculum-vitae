@@ -199,7 +199,7 @@
     .header-name {
       @include sans_bold;
       font-size: 2rem;
-      margin: .4em 0 .2rem;
+      margin: 0 0 .2rem;
     }
   }
   .section-header {
@@ -208,7 +208,7 @@
     h2 { font-size: 1.2rem; line-height: 1.7rem; }
   }
   .content-section {
-    margin: 0 0 1rem;
+    margin: .7em 0 1rem;
     .resume-item { margin-bottom: 1rem; }
     .resume-item-title {
       font-size: 16px;
