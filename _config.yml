@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Pino Volpe"
-resume_title:                   "web designer, front-end web developer, WordPress developer"
+resume_title:                   "web designer<br />front-end web developer<br />WordPress developer"
 resume_contact_email:           "pino.volpe@gmail.com"
 # resume_contact_telephone:       "+39 347 04.34.364"
 # resume_contact_address:         "Venezia, Italia"
